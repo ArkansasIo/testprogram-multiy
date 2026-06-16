@@ -6,7 +6,6 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -21,6 +20,7 @@ wheels/
 *.egg
 
 # PyInstaller
+# dist/ - We want to track the compiled EXE
 *.manifest
 *.spec
 
